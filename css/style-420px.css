@@ -1,0 +1,51 @@
+/* tablet*/
+
+@media screen and (max-width: 768px) {
+
+  .row{
+    width: auto;
+    margin-top: 40px;
+  }
+
+  img{
+    height: 150px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  #lezioni .row>.right img{
+   margin-top: 20px;
+ }
+
+ #steps .row>.left,
+ #steps .row>.central,
+ #steps .row>.right {
+   float: none;
+   width: 100%;
+ }
+
+ #steps .row>.central img,
+ #steps .row>.right img{
+   margin-top: 30px;
+ }
+
+ #why .row>.first,
+ #why .row>.second,
+ #why .row>.third {
+   margin-top: 20px;
+ }
+
+}
+
+/* smarthphone*/
+
+@media screen and (max-width: 420px) {
+  img{
+    height: 100px;
+  }
+
+}
